@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.NodeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-01T10:29:19" hostname="SHALINI" time="0.077">
+  <properties/>
+  <testcase name="Given3Numbers_WhenLinked_ShouldPassed_LinkedListTest()" classname="com.bridgelabz.NodeTest" time="0.077"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
