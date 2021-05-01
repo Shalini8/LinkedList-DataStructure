@@ -90,4 +90,17 @@ public void Given3Numbers_WhenLinked_ShouldPassed_LinkedListTest() {
                 linkedList.head.getNext().equals(secondNode);
         Assertions.assertTrue(res);
     }
+    @Test
+    public void Given3Numbers_WhenSearch_AnyNumber_InLinkedList() {
+        Node<Integer> firstNode = new Node<Integer>(56);
+        Node<Integer> secondNode = new Node<Integer>(30);
+        Node<Integer> thirdNode = new Node<Integer>(70);
+        LinkedList linkedList = new LinkedList();
+        linkedList.add(firstNode);
+        linkedList.append(secondNode);
+        linkedList.append(thirdNode);
+        boolean res = linkedList.search(30);
+        linkedList.printNodes();
+        Assertions.assertTrue(res);
+    }
 }
